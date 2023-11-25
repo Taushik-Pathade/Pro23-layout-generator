@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>layout generator</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<main>
+  <div class="card">
+    <h3 class="subtitle">Layout generator</h3>
+    <h1>Settings</h1>
+    
+    <h3>Number of cards (minus fillers)</h3>
+    <div class="form">
+      <div class="input">
+        2
+        <input class="slider" type="range" min="2" max="99">
+        99
+      </div>
+      <button>Regenerate with x cards</button>
+    </div>
+    
+    <h3>Number of columns</h3>
+    <div class="column-picker">
+      <button data-i="1">1</button>
+      <button data-i="2">2</button>
+      <button data-i="3">3</button>
+      <button data-i="4">4</button>
+      <button data-i="5">5</button>
+      <button data-i="6">6</button>
+      <button data-i="7">7</button>
+      <button data-i="8">8</button>
+      <button data-i="9">9</button>
+      <button data-i="10">10</button>
+      <button data-i="11">11</button>
+      <button data-i="12">12</button>
+    </div>
+  </div>
+
+  <div class="grid"></div>
+</main>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
